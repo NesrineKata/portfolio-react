@@ -28,7 +28,7 @@ const data = [
     img: portoflio,
     title: "Portfolio Site",
     builtWith: "React, Chakra UI, React Router",
-    code: "",
+    code: "https://github.com/NesrineKata/portfolio-react",
     live: "",
     description: "Yay! You're already here. Why not take a look around!",
   },

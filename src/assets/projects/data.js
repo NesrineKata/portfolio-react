@@ -12,7 +12,7 @@ const data = [
     code: "https://github.com/NesrineKata/EmployeesPlateform",
     live: "",
     description:
-      "The most expanded application I had opportunity to work with. I've learned many technologies. Application allows to store videos, lyrics qnd images to AWS S3 and handle register, login of employees using MYSQL Database.",
+      "The most expanded application I had the opportunity to work with. I've learned many technologies. The application allows to store videos, lyrics,  images to AWS S3 and handle register, login of employees using MYSQL Database.",
   },
   {
     img: spring,

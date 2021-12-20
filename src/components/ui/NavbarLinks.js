@@ -28,7 +28,7 @@ const NavbarLinks = (props) => {
         onClick={onClick}
         _hover={hoverStyle}
         isExternal
-        href=""
+        href="https://drive.google.com/file/d/1QDO-1bpcer6Eg9uFUyXrCLG5greOf5Vn/view?usp=sharing"
       >
         Resume
       </Link>

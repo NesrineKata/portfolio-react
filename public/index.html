@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Portfolio site of Nesrine Benaoun" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <style>
+      .loader {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .circle {
+        width: 1rem;
+        height: 1rem;
+        background-color: #21c998;
+        border-radius: 50%;
+        margin: 0.1rem;
+        animation: scale 0.5s linear 0s infinite alternate;
+      }
+
+      .one {
+        animation-delay: 0s;
+      }
+
+      .two {
+        animation-delay: 0.2s;
+      }
+
+      .three {
+        animation-delay: 0.4s;
+      }
+
+      @keyframes scale {
+        from {
+          transform: scale(0.2);
+        }
+        to {
+          transform: scale(1);
+        }
+      }
+    </style>
+    <title>Nesrine Benaoun | Software Engineering Student</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!-- Loader -->
+    <div class="loader-container">
+      <div class="loader">
+        <div class="circle one"></div>
+        <div class="circle two"></div>
+        <div class="circle three"></div>
+      </div>
+    </div>
+  </body>
+</html>

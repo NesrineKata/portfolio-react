@@ -46,14 +46,17 @@ const Hero = () => {
         />
       </Box>
 
-      <Illustration
+     
+    </Flex>
+  );
+};
+/*
+ <Illustration
         h={{ base: "13rem", md: "25rem", lg: "25rem", xl: "30rem" }}
         w={{ base: "80vw", md: "25rem", lg: "25rem", xl: "29rem" }}
         mb={{ base: "4rem", md: "3rem", lg: "0" }}
         order={{ base: "1", lg: "2" }}
       />
-    </Flex>
-  );
-};
+*/
 
 export default Hero;
